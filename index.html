@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Static Website Hosting</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div>
+    <h2 id="page-url"></h2>
+    <img src="./assets/S3.png" alt="S3 Logo">
+  </div>
+
+  <script>
+    const url = document.URL
+    const pageurl = document.querySelector("#page-url")
+
+    pageurl.innerText = url
+  </script>
+</body>
+</html>
